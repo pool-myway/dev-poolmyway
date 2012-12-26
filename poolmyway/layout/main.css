@@ -1,0 +1,355 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#333;
+	background:url(main_bg.png);
+}
+a:link
+{
+	text-decoration:none;
+	text-align:center;
+	color:#FFF;
+}
+a:hover
+{
+	text-decoration:none;
+	color:#FFF;
+}
+a:active
+{
+	text-decoration:none;
+	color:#FFF;
+}
+a:visited
+{
+	text-decoration:none;
+	color:#FFF;
+}
+img
+{
+	border:none;
+}
+#headerwrapper
+{
+	height:100px;
+	width:100%;
+	background:#333;
+	background:url(stripe1.png);
+	color:#FFF;
+	margin-bottom:50px;
+}
+#header_main
+{
+	width:1004px;
+	height:100px;
+
+	margin:0 auto;
+}
+
+#header_main > ul
+{
+	width:1004px;
+	height:100px;
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+	
+}
+#header_main > ul > li
+{
+	float:left;
+	height:100px;
+	width:160px;
+	
+}
+#header_main > ul > li > a
+{
+	display:block;
+	height:85px;
+	width:160px;
+	padding:15px 0 0 0;
+	
+}
+#header_main > ul > #hometab a:hover
+{
+	background:#990;
+}
+#header_main > ul > #howtab a:hover
+{
+	background:#930;
+}
+#header_main > ul > #testitab a:hover
+{
+	background:#36F;
+}
+#header_main > ul > #registertab a:hover
+{
+	background:#96F;
+}
+#header_main > ul > #logintab a:hover
+{
+	background:#399;
+}
+.logintab_hover
+{
+	background:#399;
+}
+
+
+#header_main > ul > #logotab
+{
+width:200px;
+margin-top:25px;
+
+}
+.tabtitle
+{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:20px;	
+	margin-top:5px;
+	display:block;
+
+	
+	
+}
+.tabdescription
+{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:11px;
+	text-transform:uppercase;letter-spacing:.5px;
+	margin-top:3px;
+	display:block;
+}
+#pmw_logo
+{
+	height:90px;
+	width:300px;
+	float:left;
+	padding-top:10px;
+	
+}
+.login_wrapper
+{
+ float:right; width:600px; height:40px; margin-top:10px;;	
+}
+.login_wrapper input[type="text"],input[type="password"]
+{
+	width:200px;
+	border:#00F 1px solid;
+	height:25px;
+	border-radius:5px;
+	padding:3px;
+	
+}
+
+#update-panel
+{
+	height:130px;
+	background:url(digi-watch_left.png) no-repeat;
+}
+#update-wrapper
+{
+	height:130px;
+	width:1004px; 
+	margin:0 auto;
+	background:url(digi-watch.png) no-repeat;
+	
+}
+#searchbox
+{
+	height:130px; width:724px; float:right; background:url(../layout/pmw-char.png) no-repeat;
+}
+
+#searchbox input[type='text'] 
+{
+	height:30px; width:220px;
+	padding:5px;
+	color:#093;
+	font-style:italic;
+	border-radius:5px;
+	border: 1px solid #CCC;
+	 -moz-box-shadow:    inset 0 0 5px #9C0;
+   -webkit-box-shadow: inset 0 0 5px #9C0;
+   box-shadow:         inset 0 0 5px #9C0;
+}
+
+.shadow {
+   -moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
+}
+.running-pool-item
+{
+	height:80px;
+	margin-bottom:10px;
+	border-bottom:1px #CCC solid;
+ }
+ .user-thumb
+ {
+	 height:80px;
+	 width:80px;
+	 float:left;
+	 margin-right: 10px;
+ }
+.pool-item-desc
+{
+	height:80px;
+	float:left;
+	width:280px;
+}
+
+.pool-item-desc
+{
+	height:20;
+}
+.pool-item-desc
+{
+	height:20;
+}
+.running-pool-item a:link
+{
+	color:#09C;
+
+}
+.running-pool-item a:hover
+{
+	color:#069;
+
+}.running-pool-item a:active
+{
+	color:#09C;
+
+}.running-pool-item a:visited
+{
+	color:#09C;
+
+}
+#footer-wrapper
+{
+	height:300px;
+	background:url(../layout/stripe1.png);
+	color:#fff;
+	border-top:5px #000 solid;
+}
+#footer
+{
+	margin:0 auto;
+	width:1004px;
+	height:300px;
+
+}
+#footer-grad
+{
+	background:url(footer-top-bg.png) repeat-x;
+
+}
+
+.footer-box{
+	height:270px;
+	width:300px;
+	float:left;
+	padding:15px;
+}
+.footer-box > ul {
+	list-style:none;
+	margin:0px;
+	padding:0px;
+	margin-left:10px;
+	width:200px;
+	padding:5px;
+}
+
+.footer-box > ul >li{
+border-bottom:1px #CCC dotted;
+padding:8px 0 4px 0;
+}
+.footer-title{
+	font-size:18px;
+	height:30px;
+	border-bottom:#CCC 1px solid;
+}
+#loginbox 
+{
+ width:200px; position:relative; background:#ff9; background-color: white;
+/*box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);*/
+display: none;
+height: auto;
+left: -140px;
+padding: 10px;
+position: relative;
+border:5px #399 solid;
+top:-5px;
+width: 270px;
+z-index: 1000;
+text-align:center;
+border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	
+}
+
+#loginbox input[type="text"],input[type="password"]
+{
+	height:25px; width:250px;
+	padding:5px;
+	color:#093;
+	font-style:italic;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border: 1px solid #CCC;
+	 -moz-box-shadow:    inset 0 0 5px #9C0;
+   -webkit-box-shadow: inset 0 0 5px #9C0;
+   box-shadow:         inset 0 0 5px #9C0;
+}
+#loginbox input[type="submit"]
+{
+	height:30px;
+	width:115px;
+	border: none;
+	
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	background: #a3cb4e;
+	
+	background:url(../layout/login-btn.png);
+	
+}
+#loginbox input[type="submit"]:hover
+{
+	height:30px;
+	width:115px;
+	border: none;
+	
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	background: #a3cb4e;
+	
+	background:url(../layout/login-btn-over.png);
+
+}
+#loginbox a:link
+{
+	
+	color:#333;
+	font-size:10px;
+}
+#loginbox a:hover
+{
+	color:#333;clear:both;
+	font-size:10px;
+	background:transparent;
+}
+#loginbox a:active
+{
+	color:#333;
+	font-size:10px;
+}
+#loginbox a:visited
+{
+	color:#333;
+	font-size:10px;
+}
